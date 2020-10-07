@@ -1,11 +1,15 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+.pText{
+    
+}
 
 .textGreen{
     color:#1A1A1A;
@@ -55,6 +59,7 @@ body{
 
 #div3{
     background: #00B172;
+    position: relative;
 
 }
 
@@ -62,7 +67,10 @@ body{
     display: flex;
     justify-content: space-between;
     margin-left: 10em;
+    margin-right: 10em;
     padding-top: 3em;
+    padding-bottom: 3em;
+    color: #FFF;
     
 }
 
@@ -74,6 +82,16 @@ body{
 
 #div3Logo{
     position: absolute;
+    top: 40%;
+    left: 50%;
     
-    
+}
+
+#div3DivSubDiv1 h2{
+margin-bottom: 30px;
+}
+
+#div3DivSubDiv1 div{
+    width: 50%;
+    height: 25%;
 }
