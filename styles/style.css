@@ -33,14 +33,24 @@ body{
 }
 
 #div1{
+    padding: 0;
+    margin: 0;
     display: flex; 
     flex-direction: column;
+    background: #FFF;
     height: 100vh;
 }
 #nav1{
-    margin: 15px 15px 0px 15px;
+    position: fixed;
+    background: #FFF;
+    width: 100%;
+    top: 0;
     display: flex;
     justify-content: space-between;
+}
+#nav1 img{
+    padding-top: 0.5em;
+    margin-left: 2em;
 }
 #nav1Ul{
     display: flex;
@@ -57,7 +67,7 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
-    height: 90%;
+    height: 100%;
     width: 100%;
     background: url(../images/landing.jpg) no-repeat center;    background-size: cover;
     background-size: cover;
