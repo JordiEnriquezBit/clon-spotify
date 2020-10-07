@@ -7,24 +7,37 @@ White: #FFF
 
 */
 
-.pText{
-    
+#div1SubDiv1 h1{
+    font-size: 5em;
 }
+
+
+#div1SubDiv1 p{
+    width: 45%;
+    font-size: 1.2em;
+}
+
+.textWhite{
+    color:#FFF;
+}
+
 
 .textGreen{
     color:#1A1A1A;
 }
 
 body{
+    font-family: 'Arimo', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 #div1{
+    display: flex; 
+    flex-direction: column;
     height: 100vh;
 }
 #nav1{
-    height: 10%;
     margin: 15px 15px 0px 15px;
     display: flex;
     justify-content: space-between;
@@ -38,21 +51,43 @@ body{
  margin: 10px;
 }
 
+#div1SubDiv1{
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    height: 90%;
+    width: 100%;
+    background: url(../images/landing.jpg) no-repeat center;    background-size: cover;
+    background-size: cover;
+    text-align: center;
+
+    
+
+}
+
 
 #div2{
     text-align: center;
 }
-#div2 h2{
-    
+#div2 > h2{
     margin-top: 40px;
     
 }
 #div2Div{
-    margin-left: 5em ;
-    margin-right: 5em auto ;
+    
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 10em;
+    margin-right: 10em;
+    flex-wrap: wrap;
+
+}
+#div2Div div{
+    
+    width: 15em;
 
 }
 
@@ -60,6 +95,7 @@ body{
 #div3{
     background: #00B172;
     position: relative;
+    
 
 }
 
@@ -71,7 +107,7 @@ body{
     padding-top: 3em;
     padding-bottom: 3em;
     color: #FFF;
-    
+    flex-wrap: wrap;
 }
 
 #div3Div+div{
@@ -88,10 +124,33 @@ body{
 }
 
 #div3DivSubDiv1 h2{
-margin-bottom: 30px;
+font-size: xx-large;
 }
 
 #div3DivSubDiv1 div{
     width: 50%;
     height: 25%;
+}
+
+#div3DivSubDiv1 div h3{
+    font-size: x-large;
+}
+
+#div3SpotifyApp{
+    margin-top: 3em;
+}
+
+.h2Span{
+    border-bottom: 3px solid ;
+    padding: 2px;
+}
+
+
+
+/*  MEDIA SCREEN  */
+
+
+@media (min-width: 700px) {
+
+
 }
